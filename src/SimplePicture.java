@@ -13,6 +13,7 @@ public class SimplePicture extends GraphicsProgram {
 	
 	public void run() {
 		System.out.println(" Hello ");
+		System.out.println(" Hi ");
 		GImage robot = new GImage(ROBOT_PNG, 200, 100);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github!", 200, 400);
