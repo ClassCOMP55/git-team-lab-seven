@@ -1,3 +1,4 @@
+
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -11,6 +12,7 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
+		System.out.println(" Hello ");
 		GImage robot = new GImage(ROBOT_PNG, 200, 100);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github!", 200, 400);
