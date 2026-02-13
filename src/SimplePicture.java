@@ -16,7 +16,7 @@ public class SimplePicture extends GraphicsProgram {
 		System.out.println(" Hi ");
 		GImage robot = new GImage(ROBOT_PNG, 200, 100);
 		add(robot);
-		GLabel label = new GLabel("How I feel when using github!", 200, 400);
+		GLabel label = new GLabel("Hey, this is hard!", 200, 400);
 		add(label);
 	}
 	
